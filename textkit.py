@@ -3,7 +3,7 @@
 
 def word_count(text: str) -> int:
     """Return the number of words in text. Words are separated by whitespace."""
-    return len(text.split(" "))
+    return len(text.split())
 
 
 def initials(name: str) -> str:
